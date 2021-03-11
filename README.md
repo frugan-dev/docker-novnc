@@ -2,7 +2,7 @@
 
 # Docker noVNC
 
-Dockerization of [noVNC project](https://github.com/novnc/noVNC).
+Dockerization of the [noVNC project](https://github.com/novnc/noVNC).
 
 ### Changelog
 
