@@ -26,6 +26,7 @@ https://github.com/KristinitaTest/KristinitaTest.github.io/blob/master/donate/Bi
 ### Usefull links
 
 - https://github.com/doug-w/docker-novnc
+- https://stackoverflow.com/a/63609044/3929620
 
 ### License
 
