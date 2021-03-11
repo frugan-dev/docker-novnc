@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:latest
 LABEL maintainer=info@ewake.it
 
 ENV HOME=/root \

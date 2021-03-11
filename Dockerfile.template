@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:%%TAG%%
 LABEL maintainer=info@ewake.it
 
 ENV HOME=/root \
