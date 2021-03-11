@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+
+  novnc:
+    container_name: ${NOVNC_NAME}
+    build:
+      context: ./${NOVNC_TAG}
+    ports:
+      - 6080
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - default
+    environment:
+      REMOTE_HOST: ${NOVNC_REMOTE_HOST}
+      REMOTE_PORT: ${NOVNC_REMOTE_PORT}
